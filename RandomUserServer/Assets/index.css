@@ -1,0 +1,62 @@
+﻿#app {
+    text-align: center;
+}
+
+    #app .top-panel {
+        
+    }
+        #app .top-panel select {
+            background: #FFFFFF;
+            border: 2px solid #4627FF;
+            border-radius: 8px;
+            width: 400px;
+            height: 45px;
+            margin-bottom: 1rem;
+        }
+            #app .top-panel select:focus {
+                border: 2px solid #4627FF;
+            }
+            #app .top-panel select:active {
+                border: 2px solid #4627FF;
+            }
+
+        #app .top-panel .form-wrapper {
+        }
+
+        #app .top-panel .btn {
+            border: 1px solid;
+            transition: all 0.1s ease;
+            background: #4627FF;
+            border-radius: 8px;
+            color: #fff;
+            width: 213px;
+            height: 40px;
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
+            #app .top-panel .btn:hover {
+                background: #fff;
+                color: #4627FF;
+            }
+
+    #app .user-list-wrapper {
+        text-align: center;
+    }
+
+        #app .user-list-wrapper .user-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+            #app .user-list-wrapper .user-list .user {
+                width: 400px;
+                margin: auto 1rem;
+            }
+
+                #app .user-list-wrapper .user-list .user .row {
+                    display: flex;
+                }
+                #app .user-list-wrapper .user-list .user .row .name {
+                    width: 150px;
+
+                }
